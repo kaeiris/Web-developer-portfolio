@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b8580f6f8.js" crossorigin="anonymous"></script>
+
+    <title>Pixel Art Maker</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pixel Art Maker</h1>
+    </header>
+
+    <div id="container">
+        <section class="pixel-art-tools-container">
+            <span class="pixel-art-tools-header">
+                <!-- <h4>Pixel Art Tools</h4> -->
+            </span>
+
+            <div class="pixel-art-tools">
+                <span class="grid-width-text">Grid Width:</span>
+                <input type="number" class="grid-height" value="15">
+                <span class="grid-height-text">Grid Height:</span>
+                <input type="number" class="grid-width" value="15"><br>
+                <button type="submit">Make Grid</button>
+
+                <div class="icons">
+                    <i class="fas fa-palette" alt='paint'></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-paint-roller" class='grid-background-color'></i>
+                    <i class="fas fa-border-all" class='grid-line-color'></i>
+                    <i class="fas fa-eraser"></i>
+                </div>
+
+                <i class="fas fa-eraser erase-icon"></i> <span class="double-click-text">Click cell to erase or
+                    double-click</span><br>
+                <i class="fas fa-border-all grid-line-color-icon"></i> <span class='grid-line-color-icon'>Click 1st grid
+                    cell to change color</span>
+
+            </div>
+        </section>
+        <table class="pixel-art-maker-table">
+
+        </table>
+    </div>
+
+
+
+
+
+    <script src="/PixelArtMaker/script.js"></script>
+
+</body>
+
+</html>
